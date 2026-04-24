@@ -1,0 +1,42 @@
+﻿@page "/"
+
+<PageTitle>Currículo | Dev .NET</PageTitle>
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="text-center p-4 bg-light rounded-3 mb-4">
+                <img src="images/perfil.jpg" class="rounded-circle mb-3" width="120" />
+                <h3>Icaro Ferreira de Oliveira</h3>
+                <p class="text-muted">Desenvolvedor Revit API</p>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <h2 class="mb-4">Experiência Profissional</h2>
+            
+            @foreach (var exp in MinhasExperiencias)
+            {
+                <ExperienciaCard Dados="exp" />
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Experiencia> MinhasExperiencias = new()
+    {
+        new Experiencia {
+            Empresa = "Eficácia Projetos e Consultoria",
+            Cargo = "Estágiario de Análide e Desenvolvimenot de Sistemas",
+            Inicio = "2025",
+            Descricao = "Atuação no desenvolvimento Plugins para o Revit utilizando C#"
+        },
+        new Experiencia {
+            Empresa = "Grupo Projeta",
+            Cargo = "Assistente de Engenharia Digital",
+            Inicio = "2024", Fim = "2025",
+            Descricao = "Ajudando no suporte com o BIM e desenvolvimento de Plugins utilizando C#, .NET MAUI e desenvolvimento de Macros para o Excleu utilizando VBA"
+        }
+    };
+}
