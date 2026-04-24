@@ -44,7 +44,7 @@ Para executar este projeto localmente na sua máquina, siga os passos abaixo no 
 ---
 
 ## 📸 Screenshot da Aplicação
-![Screenshot do Meu Currículo](./image_5ef615.png)
+![Screenshot do Meu Currículo](./home.png)
 
 *(Nota: Certifique-se de que o arquivo da imagem esteja salvo na raiz do repositório ou ajuste o caminho acima para a pasta correta onde a imagem foi salva).*
 
