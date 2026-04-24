@@ -58,4 +58,3 @@ A aplicação do currículo foi projetada para ser intuitiva e fácil de usar se
 Ele serve como a documentação oficial do sistema, sendo:
 1. **Fácil de buscar:** Localizado na raiz do repositório, é a primeira coisa que o usuário (ou avaliador) lê.
 2. **Focada na tarefa do usuário:** Fornece passos diretos e claros ("Guia de Execução") para que qualquer pessoa consiga compilar e rodar o projeto sem jargões desnecessários, cumprindo o objetivo de guiar o usuário na tarefa de visualização do sistema.
-```
